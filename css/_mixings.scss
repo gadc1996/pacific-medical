@@ -3,3 +3,7 @@
   text-decoration: underline;
   color: variables.$light-gold;
 }
+@mixin divider{
+  width: 20%;
+  height: 5px;
+}
