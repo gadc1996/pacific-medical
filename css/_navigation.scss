@@ -1,14 +1,18 @@
 @use 'variables';
 @use 'mixings';
 header{
-		height: 20vh;
+		height: 120px; 
+		position: fixed;
+		width: 100%;
+		top: 0;
     .top-navigation{
         height: 60%;
         padding: 0px 1.5em;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+				align-items: center;
+				background-color: #eee;
         img{
             height: 100%;
         }
@@ -31,12 +35,16 @@ header{
         }
     }
     .nav-links{
-        height: 40px;
+				height: 40%;
+				position: absolute;
+				bottom: 0;
+				width: 100%;
         padding: .5em 0;
         list-style: none;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+				justify-content: space-around;
+				align-items: center;
 				background-color: variables.$blue;
         .nav-item{
 					a{
