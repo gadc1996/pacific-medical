@@ -1,0 +1,74 @@
+header {
+  height: 20vh;
+}
+header .top-navigation {
+  height: 60%;
+  padding: 0px 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .top-navigation img {
+  height: 100%;
+}
+header .top-navigation .contact {
+  list-style: none;
+}
+header .top-navigation .contact li {
+  margin: 0.5em 0;
+}
+header .top-navigation .contact li i {
+  margin: 0 0.5em;
+  color: #333;
+}
+header .top-navigation .contact li a {
+  text-decoration: none;
+  color: #333;
+}
+header .top-navigation .contact li a:hover {
+  text-decoration: underline;
+  color: #DFB977;
+}
+header .nav-links {
+  height: 40px;
+  padding: 0.5em 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #1B73D3;
+}
+header .nav-links .nav-item a {
+  color: #fff;
+  text-decoration: none;
+}
+header .nav-links .nav-item a:hover {
+  text-decoration: underline;
+  color: #DFB977;
+}
+header .nav-links .nav-item .dropdown {
+  background-color: #1B73D3;
+  list-style: none;
+  display: none;
+  position: absolute;
+}
+header .nav-links .nav-item .dropdown .dropdown-item {
+  padding: 1.2em;
+}
+header .nav-links .nav-item:hover .dropdown {
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #eee;
+}
+
+/*# sourceMappingURL=style.css.map */

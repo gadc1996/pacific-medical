@@ -1,0 +1,5 @@
+@use 'variables';
+@mixin a-hover {
+  text-decoration: underline;
+  color: variables.$light-gold;
+}
