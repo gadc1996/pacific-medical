@@ -6,7 +6,8 @@
 		position: relative;
 		z-index: 0;
 		overflow: hidden;
-		box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+		border-radius: 5px;
+		box-shadow: variables.$shadow;
 		transition: .5s;
 		padding-bottom: 1em;
 		a{
@@ -64,5 +65,5 @@
 	
 @mixin cardHover {
 	transform: scale(1.03);
-	box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+	box-shadow: variables.$shadow-hover;
 }

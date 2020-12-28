@@ -112,7 +112,8 @@ header .nav-links .nav-item:hover .dropdown {
   position: relative;
   z-index: 0;
   overflow: hidden;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   transition: 0.5s;
   padding-bottom: 1em;
 }
@@ -161,14 +162,15 @@ header .nav-links .nav-item:hover .dropdown {
 }
 .card-row .card-big:hover {
   transform: scale(1.03);
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.5);
 }
 .card-row .card-small {
   width: 30%;
   position: relative;
   z-index: 0;
   overflow: hidden;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   transition: 0.5s;
   padding-bottom: 1em;
 }
@@ -217,7 +219,44 @@ header .nav-links .nav-item:hover .dropdown {
 }
 .card-row .card-small:hover {
   transform: scale(1.03);
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.5);
+}
+.card-row .card-mini {
+  width: 20%;
+  height: 120px;
+  border-radius: 5px;
+  position: relative;
+  transition: 0.3s;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+}
+.card-row .card-mini .category {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background-color: #1B73D3;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+.card-row .card-mini .category a {
+  text-decoration: none;
+  color: #fff;
+}
+.card-row .card-mini .category a:hover {
+  text-decoration: underline;
+  color: #DFB977;
+}
+.card-row .card-mini a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.card-row .card-mini:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 footer {

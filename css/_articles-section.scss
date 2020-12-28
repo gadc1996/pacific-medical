@@ -42,6 +42,43 @@
 	}
 	.card-small:hover{
 		@include card.cardHover;
-	}
-
+    }
+    .card-mini{
+        width: 20%;
+        height: 120px;
+        border-radius: 5px;
+        position: relative ;
+        transition: .3s;
+        box-shadow: 5px 5px  3px rgba($color: #000000, $alpha: .5);
+        .category{
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            background-color: variables.$blue;
+            padding: 5px 10px;
+            color: #fff;
+            border-radius: 3px;
+            text-transform: uppercase;
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
+            a:hover{
+                @include mixings.a-hover;
+            }
+        }
+        a{
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 5px;
+            }
+        }
+    }
+    .card-mini:hover{
+        transition: .5s;
+        transform: scale(1.1);
+        box-shadow: 10px 10px 5px rgba($color: #000000, $alpha: .5);
+    }
 }
