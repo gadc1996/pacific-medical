@@ -77,24 +77,24 @@ header .nav-links .nav-item:hover .dropdown {
   max-width: 100%;
 }
 
-.latest-articles {
+.articles-section {
   width: 80%;
   padding: 2em 0;
   margin: auto;
 }
-.latest-articles h2 {
+.articles-section h2 {
   font-size: 2em;
   color: #1B73D3;
 }
-.latest-articles .title-divider {
+.articles-section .title-divider {
   display: flex;
 }
-.latest-articles .title-divider .divider-color {
+.articles-section .title-divider .divider-color {
   width: 20%;
   height: 5px;
   background-color: #1B73D3;
 }
-.latest-articles .title-divider .divider-section {
+.articles-section .title-divider .divider-section {
   width: 20%;
   height: 5px;
   background-color: #bbb;
