@@ -1,0 +1,68 @@
+@use 'variables';
+@use 'mixings';
+
+@mixin card($card-width){
+		width: $card-width;
+		position: relative;
+		z-index: 0;
+		overflow: hidden;
+		box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+		transition: .5s;
+		padding-bottom: 1em;
+		a{
+			text-decoration: none
+		}
+		
+		.category{
+			position: absolute;
+			top: 0;
+			right: 0;
+			margin: .5em;
+			padding: .3em;
+			border-radius: 10px;
+			background-color: variables.$blue;    
+		}
+	
+		img{
+			width: 100%;
+			height: 200px;
+			border-radius: 5px 5px 0px 0px;
+		}
+	
+		.card-info{
+			color: #777;
+			margin: 1em variables.$card-margin;
+			font-size: .8em;
+		}
+		
+		.card-title{
+			color: variables.$blue;
+			margin: 0 variables.$card-margin;
+			font-size: 1.5em;
+			text-decoration: none;
+		}
+		
+		.card-title:hover{
+			text-decoration: underline;
+		}
+	
+		.card-description{
+			margin: .5em variables.$card-margin;
+			text-align: left;
+		}
+	
+		.read-more{
+			color: variables.$gold;
+			margin: 0 variables.$card-margin;
+		}
+	
+		.read-more:hover{
+			@include mixings.a-hover;
+		}
+	
+	}
+	
+@mixin cardHover {
+	transform: scale(1.03);
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+}
