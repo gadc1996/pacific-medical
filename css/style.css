@@ -78,6 +78,7 @@ header .nav-links .nav-item:hover .dropdown {
 }
 
 .articles-section {
+  margin-top: 1200px;
   width: 80%;
   padding: 2em 0;
   margin: auto;
