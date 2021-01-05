@@ -11,6 +11,34 @@
 <?php
         }
 ?>
+
+<?php 
+    function renderCardRow($cardsPerRow, $cardsSize, $threshold = 0){
+?>
+        <div class="card-row">
+        <?php 
+            $i = 0;
+            $skip = 0;
+            while(have_posts()) {
+                the_post();
+                if ($skip < $threshold){
+                    $skip++;
+                    continue;
+                }
+        ?>
+
+        <?php 
+                if($i <= $cardsPerRow - 1){
+                    renderCard($cardsSize);
+                    $i++;
+                }    
+            }
+        ?>
+    </div>
+    <?php
+    }
+?>
+
 <?php get_header();?>
 <!--Inicia imagen destacada-->
 <section class="featured-image">
@@ -30,22 +58,10 @@
         <div class="divider-section"></div>
     </div>
 
-    <div class="card-row">
     <?php 
-        $i = 0;
-        $postsInRow = 0;
-        while(have_posts()) {
-        the_post();
-    ?>
-
-        <?php 
-            if($i <= 1){
-                renderCard('big');
-                $i++;
-            }    
-            }
-        ?>
-    </div>
+        renderCardRow(2, 'big'); 
+        renderCardRow(3, 'small', 2); 
+    ?>    
 
     
 </section>
