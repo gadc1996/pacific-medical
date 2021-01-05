@@ -1,9 +1,22 @@
 @use 'variables';
 @mixin a-hover {
-  text-decoration: underline;
-  color: variables.$light-gold;
+	text-decoration: underline;
+	color: variables.$light-gold;
 }
 @mixin divider{
-  width: 20%;
-  height: 5px;
+	width: 20%;
+	height: 5px;
+}
+@mixin title{
+	font-size: 2em;
+	color: variables.$blue;
+}
+@mixin subtitle{
+	font-size: 1.5em;
+	color: variables.$blue;	
+}
+@mixin info{
+	color: #777;
+	margin: 1em variables.$card-margin;
+	font-size: .8em;
 }

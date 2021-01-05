@@ -83,7 +83,7 @@ header .nav-links .nav-item:hover .dropdown {
   padding: 2em 0;
   margin: auto;
 }
-.articles-section h2 {
+.articles-section .section-title {
   font-size: 2em;
   color: #1B73D3;
 }
@@ -343,6 +343,36 @@ footer .footer-colum i:hover {
   color: #DFB977;
   transform: scale(1.2);
   transition: 0.3s;
+}
+
+.articleSection {
+  margin: 120px auto;
+  width: 80%;
+  padding: 1em 0;
+}
+.articleSection .categoryTitle {
+  font-size: 2em;
+  color: #1B73D3;
+  margin: 0.5em 0 0 0;
+}
+.articleSection .categorySubtitle {
+  font-size: 1.5em;
+  color: #1B73D3;
+  margin: 0.5em 0;
+}
+.articleSection .articleInfo {
+  color: #777;
+  margin: 1em 5%;
+  font-size: 0.8em;
+  margin: 0;
+}
+.articleSection img {
+  margin: 2em 0;
+  width: 70%;
+}
+.articleSection .articleContent {
+  font-size: 1.3em;
+  text-align: justify;
 }
 
 * {

@@ -31,9 +31,7 @@
 		}
 	
 		.card-info{
-			color: #777;
-			margin: 1em variables.$card-margin;
-			font-size: .8em;
+			@include mixings.info;
 		}
 		
 		.card-title{

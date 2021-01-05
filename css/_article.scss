@@ -1,0 +1,29 @@
+@use 'variables';
+@use 'mixings';
+
+.articleSection{
+    margin: 120px auto;
+    width: 80%;
+    padding: 1em 0;
+    .categoryTitle{
+        @include mixings.title;
+        margin: .5em 0 0 0;
+    }
+    .categorySubtitle{
+        @include mixings.subtitle;
+        margin: .5em 0;
+    }
+    .articleInfo{
+        @include mixings.info;
+        margin: 0 ;
+    }
+    img{
+        margin: 2em 0;
+        width: 70%;
+    }
+    .articleContent{
+        font-size: 1.3em;
+        text-align: justify;
+
+    }
+}
