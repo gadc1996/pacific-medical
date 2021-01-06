@@ -20,7 +20,7 @@
                 <a href="<?php the_permalink()?>" ><img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt=""></a>
                 <div class="right-column">
                     <h2><a href="<?php the_permalink()?>"><?php the_title()?></a></h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati tempore cum mollitia maiores pariatur adipisci vitae, iste vero? Dignissimos, at..</p>
+                    <p><?php echo wp_trim_words( get_the_excerpt(), 15 )?></p>
                     <a href="<?php the_permalink()?>" class="readmore">Leer más</a>
                 </div>
             </div>

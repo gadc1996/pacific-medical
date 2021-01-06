@@ -4,9 +4,9 @@
         <div class="card-<?php echo $cardSize; ?>">
                     <div class="category"><?php the_category(); ?></div>
                     <a href="<?php the_permalink(); ?>"><img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="" /></a>
-                    <div class="card-info"><?php the_author(); ?></div>
+                    <div class="card-info"><?php the_author(); ?> <a href="#"><?php echo get_the_category_list( ',' ) ?></a></div>
                     <a href="<?php the_permalink(); ?>"><h3 class="card-title"><?php the_title(); ?></h3></a>
-                    <div class="card-description"><?php  substr(the_excerpt(), 0, 1); ?></div>
+                    <div class="card-description"><?php  echo wp_trim_words( get_the_excerpt(), 15 )  ?></div>
         </div>
 <?php
     }
