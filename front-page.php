@@ -24,16 +24,16 @@
     ?>
     <div class="card-row">
     <?php    
-        renderCardMini($category = "hola", $categoryNumber = 1);
-        renderCardMini($category = "hola", $categoryNumber = 2);
-        renderCardMini($category = "hola", $categoryNumber = 3);
+        renderCardMini($category = "Categoria", $categoryNumber = 1);
+        renderCardMini($category = "Categoria", $categoryNumber = 2);
+        renderCardMini($category = "Categoria", $categoryNumber = 3);
     ?>
     </div>
     <div class="card-row">
     <?php    
-        renderCardMini($category = "hola", $categoryNumber = 1);
-        renderCardMini($category = "hola", $categoryNumber = 2);
-        renderCardMini($category = "hola", $categoryNumber = 3);
+        renderCardMini($category = "Categoria", $categoryNumber = 1);
+        renderCardMini($category = "Categoria", $categoryNumber = 2);
+        renderCardMini($category = "Categoria", $categoryNumber = 3);
     ?>
     </div>    
 </section>
@@ -41,7 +41,7 @@
 	<section class="articles-section" >
         <?php 
         renderSectionTitle('Articulos recomendados'); 
-        renderMainPageArticle($postLimit = 2, $threshold = 2);
+        renderMainPageArticle($postLimit = 2, $threshold = 0);
         ?>
 	</section>
 	<!--Termina Articulos recomendados-->
