@@ -23,13 +23,13 @@
 			<li class="nav-item"><a href="<?php echo site_url(' '); ?>">Inicio</a></li>
 			<li class="nav-item"><a href="#">Todos los temas&#8964;</a>
 				<ul class="dropdown">
-					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/cirugia-bariatrica/">Medicina general</a></li>
-					<li class="dropdown-item"><a href="#">Cirugía bariátrica</a></li>
-					<li class="dropdown-item"><a href="#">Psicología</a></li>
-					<li class="dropdown-item"><a href="#">Nutrición</a></li>
-					<li class="dropdown-item"><a href="#">Ginecología</a></li>
-					<li class="dropdown-item"><a href="#">Embarazo</a></li>
-					<li class="dropdown-item"><a href="#">Nuemología</a></li>
+					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/medicina-general/">Medicina general</a></li>
+					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/cirugia-bariatrica/">Cirugía bariátrica</a></li>
+					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/psicologia/">Psicología</a></li>
+					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/nutricion/">Nutrición</a></li>
+					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/ginecologia/">Ginecología</a></li>
+					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/embarazo/">Embarazo</a></li>
+					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/neumologia/">Neumología</a></li>
 				</ul>
 			</li>
 			<li class="nav-item"><a href="#">Tips</a></li>
