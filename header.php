@@ -11,7 +11,7 @@
 <body>	
 	<header>
 		<div class="top-navigation">
-		<img src="<?php echo get_bloginfo('template_url') ?>/img/logo.png" alt="pacific-medical-logo"/>
+		<a href="<?php echo home_url(  ); ?>"><img src="<?php echo get_bloginfo('template_url') ?>/img/logo.png" alt="pacific-medical-logo"/></a>
 		<ul class="contact">
 			<li><i class="fas fa-phone-alt"></i><a href="#">644-223-4975</a></li>
 			<li><i class="fas fa-envelope"></i><a href="#">pacific@medical.com</a></li>
@@ -20,10 +20,10 @@
 
 	<nav>
 		<ul class="nav-links">
-			<li class="nav-item"><a href="#">Inicio</a></li>
+			<li class="nav-item"><a href="<?php echo site_url(' '); ?>">Inicio</a></li>
 			<li class="nav-item"><a href="#">Todos los temas&#8964;</a>
 				<ul class="dropdown">
-					<li class="dropdown-item"><a href="#">Medicina general</a></li>
+					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/cirugia-bariatrica/">Medicina general</a></li>
 					<li class="dropdown-item"><a href="#">Cirugía bariátrica</a></li>
 					<li class="dropdown-item"><a href="#">Psicología</a></li>
 					<li class="dropdown-item"><a href="#">Nutrición</a></li>

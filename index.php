@@ -11,7 +11,7 @@
 <section class="articles-section" >
     <?php 
         renderSectionTitle('Últimos artículos');
-        renderCardRow($cardsPerRow = 2, $cardsSize = 'big'); 
+        renderCardRow($cardsPerRow = 3, $cardsSize = 'small');
         renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $threshold = 2) ; 
     ?>    
 </section>

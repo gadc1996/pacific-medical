@@ -14,7 +14,10 @@ header .top-navigation {
   align-items: center;
   background-color: #eee;
 }
-header .top-navigation img {
+header .top-navigation a {
+  height: 100%;
+}
+header .top-navigation a img {
   height: 100%;
 }
 header .top-navigation .contact {

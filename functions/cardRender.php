@@ -24,7 +24,7 @@
 ?>
 
 <?php 
-    function renderCardRow($cardsPerRow, $cardsSize, $threshold = 0){
+    function renderCardRow($cardsPerRow, $cardsSize, $category = Null, $threshold = 0){
 ?>
         <div class="card-row">
         <?php 
@@ -33,6 +33,7 @@
             $args = array(
                 'post_type' =>  'post',
                 'posts_per_page' =>  5,
+                'category_name' => $category,
             );
             $blogposts = new WP_Query($args);
             while($blogposts->have_posts()) {

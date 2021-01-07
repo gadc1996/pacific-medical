@@ -11,8 +11,44 @@
 <section class="articles-section" >
     <?php 
         renderSectionTitle('Últimos artículos');
-        renderCardRow($cardsPerRow = 2, $cardsSize = 'big'); 
-        renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $threshold = 2) ; 
+        renderCardRow($cardsPerRow = 3, $cardsSize = 'small'); 
+        renderCardRow($cardsPerRow = 3, $cardsSize = 'small',$threshold = 3) ; 
+    ?>    
+</section>
+<!--Termina  seccion ultimos articulos-->
+<!--Inicia seccion ultimos articulos-->
+<section class="articles-section" >
+    <?php 
+        renderSectionTitle('Medicina general');
+        renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $category = 'Medicina general'); 
+        renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $category = 'Medicina general', $threshold = 3) ; 
+    ?>    
+</section>
+<!--Termina  seccion ultimos articulos-->
+<!--Inicia seccion ultimos articulos-->
+<section class="articles-section" >
+    <?php 
+        renderSectionTitle('Cirugía bariátrica');
+        renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $category = 'Cirugía bariátrica'); 
+        renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $category = 'Cirugía bariátrica', $threshold = 3) ; 
+    ?>    
+</section>
+<!--Termina  seccion ultimos articulos-->
+<!--Inicia seccion ultimos articulos-->
+<section class="articles-section" >
+    <?php 
+        renderSectionTitle('Psicología');
+        renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $category = 'Psicología'); 
+        renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $category = 'Psicología', $threshold = 3) ; 
+    ?>    
+</section>
+<!--Termina  seccion ultimos articulos-->
+<!--Inicia seccion ultimos articulos-->
+<section class="articles-section" >
+    <?php 
+        renderSectionTitle('Nutrición');
+        renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $category = 'Nutrición'); 
+        renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $category = 'Nutrición', $threshold = 0) ; 
     ?>    
 </section>
 <!--Termina  seccion ultimos articulos-->
@@ -20,31 +56,40 @@
 <!--Inicia seccion ultimos articulos-->
 <section class="articles-section" >
     <?php 
-        renderSectionTitle('Categorias destacadas'); 
-    ?>
-    <div class="card-row">
-    <?php    
-        renderCardMini($category = "Categoria", $categoryNumber = 1);
-        renderCardMini($category = "Categoria", $categoryNumber = 2);
-        renderCardMini($category = "Categoria", $categoryNumber = 3);
-    ?>
-    </div>
-    <div class="card-row">
-    <?php    
-        renderCardMini($category = "Categoria", $categoryNumber = 1);
-        renderCardMini($category = "Categoria", $categoryNumber = 2);
-        renderCardMini($category = "Categoria", $categoryNumber = 3);
-    ?>
-    </div>    
+        renderSectionTitle('Ginecología');
+        renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $category = 'Ginecología'); 
+        renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $category = 'Ginecología', $threshold = 0) ; 
+    ?>    
 </section>
-	<!--Inicia Articulos recomendados-->
-	<section class="articles-section" >
-        <?php 
-        renderSectionTitle('Articulos recomendados'); 
-        renderMainPageArticle($postLimit = 2, $threshold = 0);
-        ?>
-	</section>
-	<!--Termina Articulos recomendados-->
+<!--Termina  seccion ultimos articulos-->
+<!--Inicia seccion ultimos articulos-->
+<section class="articles-section" >
+    <?php 
+        renderSectionTitle('Ginecología');
+        renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $category = 'Ginecología'); 
+        renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $category = 'Ginecología', $threshold = 0) ; 
+    ?>    
+</section>
+<!--Termina  seccion ultimos articulos-->
+<!--Inicia seccion ultimos articulos-->
+<section class="articles-section" >
+    <?php 
+        renderSectionTitle('Embarazo');
+        renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $category = 'Embarazo'); 
+        renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $category = 'Embarazo', $threshold = 0) ; 
+    ?>    
+</section>
+<!--Termina  seccion ultimos articulos-->
+<!--Inicia seccion ultimos articulos-->
+<section class="articles-section" >
+    <?php 
+        renderSectionTitle('Neumología');
+        renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $category = 'Neumología'); 
+        renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $category = 'Neumología', $threshold = 0) ; 
+    ?>    
+</section>
+<!--Termina  seccion ultimos articulos-->
+
 
 
 <?php get_footer();?>

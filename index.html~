@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pacific Medical</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	<script src="https://kit.fontawesome.com/1696329706.js" crossorigin="anonymous"></script>
+</head>
+
+<body>	
+	<header>
+		<div class="top-navigation">
+		<img src="img/logo.png" alt="pacific-medical-logo">
+		<ul class="contact">
+			<li><i class="fas fa-phone-alt"></i><a href="#">644-223-4975</a></li>
+			<li><i class="fas fa-envelope"></i><a href="#">pacific@medical.com</a></li>
+		</ul>
+	</div>
+
+	<nav>
+		<ul class="nav-links">
+			<li class="nav-item"><a href="#">Inicio</a></li>
+			<li class="nav-item"><a href="#">Todos los temas&#8964;</a>
+				<ul class="dropdown">
+					<li class="dropdown-item"><a href="#">Medicina general</a></li>
+					<li class="dropdown-item"><a href="#">Cirugía bariátrica</a></li>
+					<li class="dropdown-item"><a href="#">Psicología</a></li>
+					<li class="dropdown-item"><a href="#">Nutrición</a></li>
+					<li class="dropdown-item"><a href="#">Ginecología</a></li>
+					<li class="dropdown-item"><a href="#">Embarazo</a></li>
+					<li class="dropdown-item"><a href="#">Nuemología</a></li>
+				</ul>
+			</li>
+			<li class="nav-item"><a href="#">Tips</a></li>
+			<li class="nav-item"><a href="#">Noticias</a></li>
+			<li class="nav-item"><a href="#">Médicos</a></li>
+		</ul>
+	</nav>
+	</header>
+	<!--Inicia imagen destacada-->
+	<section class="featured-image">
+	<img src="img/background.jpeg" alt="">
+	</section>
+	<!--Termina Imagen destacada-->
+
+	<!--Inicia Ultimos Articulos-->
+	<section class="articles-section" >
+		<h2 class="section-title">Últimos artículos</h2>
+
+		<div class="title-divider">
+			<div class="divider-color"></div>
+			<div class="divider-section"></div>
+			<div class="divider-section"></div>
+			<div class="divider-section"></div>
+			<div class="divider-section"></div>
+		</div>
+
+		<div class="card-row">
+			<div class="card-big">
+			<div class="category">
+				Categoria
+			</div>
+			<a href="#"><img src="img/card-image1.jpeg" alt=""></a>
+			<div class="card-info">
+				Author - 31/12/2020
+			</div>
+			<a href="#"><h3 class="card-title">Title</h3></a>
+			<div class="card-description">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam tenetur quam quae assumenda amet dolor in up...
+			</div>
+			<a href="#" class="read-more">
+				Leer más
+			</a>
+			</div>
+			<div class="card-big">
+			<div class="category">
+				Categoria
+			</div>
+			<a href="#"><img src="img/card-image2.jpeg" alt=""></a>
+			<div class="card-info">
+				Author - 31/12/2020
+			</div>
+			<a href="#"><h3 class="card-title">Title</h3></a>
+			<div class="card-description">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam tenetur quam quae assumenda amet dolor in up...
+			</div>
+			<a href="#" class="read-more">
+				Leer más
+			</a>
+			</div>
+		</div>
+
+		<div class="card-row">
+			<div class="card-small">
+			<div class="category">
+				Categoria
+			</div>
+			<a href="#"><img src="img/card-image3.jpeg" alt=""></a>
+			<div class="card-info">
+				Author - 31/12/2020
+			</div>
+			<a href="#"><h3 class="card-title">Title</h3></a>
+			<div class="card-description">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam tenetur quam quae assumenda amet dolor in up...
+			</div>
+			<a href="#" class="read-more">
+				Leer más
+			</a>
+			</div>
+			<div class="card-small">
+			<div class="category">
+				Categoria
+			</div>
+			<a href="#"><img src="img/card-image4.jpeg" alt=""></a>
+			<div class="card-info">
+				Author - 31/12/2020
+			</div>
+			<a href="#"><h3 class="card-title">Title</h3></a>
+			<div class="card-description">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam tenetur quam quae assumenda amet dolor in up...
+			</div>
+			<a href="#" class="read-more">
+				Leer más
+			</a>
+			</div>
+			<div class="card-small">
+			<div class="category">
+				Categoria
+			</div>
+			<a href="#"><img src="img/card-image5.jpeg" alt=""></a>
+			<div class="card-info">
+				Author - 31/12/2020
+			</div>
+			<a href="#"><h3 class="card-title">Title</h3></a>
+			<div class="card-description">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam tenetur quam quae assumenda amet dolor in up...
+			</div>
+			<a href="#" class="read-more">
+				Leer más
+			</a>
+			</div>
+		</div>
+
+	</section>
+	<!--Termina Ultimos Articulos-->
+	
+	<!--Inicia categorias destacadas-->
+	<section class="articles-section" >
+		<h2 class="section-title">Categorias destacadas</h2>
+
+		<div class="title-divider">
+			<div class="divider-color"></div>
+			<div class="divider-section"></div>
+			<div class="divider-section"></div>
+			<div class="divider-section"></div>
+			<div class="divider-section"></div>
+		</div>
+
+		<div class="card-row">
+			<div class="card-mini">
+				<div class="category"><a href=""> Categoria</a> </div>
+				<a href="#"><img src="img/card-image6.jpeg" alt=""></a>
+			</div>
+
+			<div class="card-mini">
+				<div class="category"><a href=""> Categoria</a> </div>
+				<a href="#"><img src="img/card-image7.jpeg" alt=""></a>
+			</div>
+
+			<div class="card-mini">
+				<div class="category"><a href=""> Categoria</a> </div>
+				<a href="#"><img src="img/card-image8.jpeg" alt=""></a>
+			</div>
+
+		</div>
+		<div class="card-row">
+			<div class="card-mini">
+				<div class="category"><a href=""> Categoria</a> </div>
+				<a href="#"><img src="img/card-image9.jpeg" alt=""></a>
+			</div>
+
+			<div class="card-mini">
+				<div class="category"><a href=""> Categoria</a> </div>
+				<a href="#"><img src="img/card-image10.jpeg" alt=""></a>
+			</div>
+
+			<div class="card-mini">
+				<div class="category"><a href=""> Categoria</a> </div>
+				<a href="#"><img src="img/card-image11.jpeg" alt=""></a>
+			</div>
+		</div>
+
+	</section>
+	<!--Termina categorias destacadas-->
+
+	<!--Inicia Articulos recomendados-->
+	<section class="articles-section" >
+		<h2 class="section-title">Articulos recomendados</h2>
+
+		<div class="title-divider">
+			<div class="divider-color"></div>
+			<div class="divider-section"></div>
+			<div class="divider-section"></div>
+			<div class="divider-section"></div>
+			<div class="divider-section"></div>
+		</div>
+		
+		<div class="main-page-article">
+			<a href="#" ><img src="img/card-image12.jpeg" alt=""></a>
+			<div class="right-column">
+				<h2><a href="#">Lorem ipsum dolor sit amet.</a></h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati tempore cum mollitia maiores pariatur adipisci vitae, iste vero? Dignissimos, at..</p>
+				<a href="#" class="readmore">Leer más</a>
+			</div>
+		</div>
+		<div class="main-page-article">
+			<a href="#" ><img src="img/card-image13.jpeg" alt=""></a>
+			<div class="right-column">
+				<h2><a href="#">Lorem ipsum dolor sit amet.</a></h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati tempore cum mollitia maiores pariatur adipisci vitae, iste vero? Dignissimos, at..</p>
+				<a href="#" class="readmore">Leer más</a>
+			</div>
+		</div>
+		<div class="main-page-article">
+			<a href="#" ><img src="img/card-image14.jpeg" alt=""></a>
+			<div class="right-column">
+				<h2><a href="#">Lorem ipsum dolor sit amet.</a></h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati tempore cum mollitia maiores pariatur adipisci vitae, iste vero? Dignissimos, at..</p>
+				<a href="#" class="readmore">Leer más</a>
+			</div>
+		</div>
+		<div class="main-page-article">
+			<a href="#" ><img src="img/card-image15.jpeg" alt=""></a>
+			<div class="right-column">
+				<h2><a href="#">Lorem ipsum dolor sit amet.</a></h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati tempore cum mollitia maiores pariatur adipisci vitae, iste vero? Dignissimos, at..</p>
+				<a href="#" class="readmore">Leer más</a>
+			</div>
+		</div>
+		
+
+	</section>
+	<!--Termina Articulos recomendados-->
+	<footer>
+	<div class="footer-colum">
+		<a href="#"><img src="img/logo-white.png" alt=""></a>
+	</div>
+	<div class="footer-colum">
+		<h2 class="column-title">Temas Destacados</h2>
+		<ul class="column-list">
+			<li><a href="#">Medicina general</a></li>
+			<li><a href="#">Cirugía bariátrica</a></li>
+			<li><a href="#">Psicología</a></li>
+			<li><a href="#">Nutrición</a></li>
+			<li><a href="#">Ginecología</a></li>
+			<li><a href="#">Embarazo</a></li>
+			<li><a href="#">Neumología</a></li>
+		</ul>
+	</div>
+	<div class="footer-colum">
+		<h2 class="column-title">Lo más leido</h2>
+		<ul class="column-list">
+			<li><a href="">Lorem ipsum  elit. Ut, voluptate!</a></li>
+			<li><a href="">Assumenda vitae cum numquam agni quo sunt.</a></li>
+			<li><a href="">Nesciunt voluptate nisi  Quos, pariatur autem?</a></li>
+			<li><a href="">Aperiam  quae cumque ipsam non?</a></li>
+			<li><a href="">Ad eveniet ipsam teneturum quas similique.</a></li>
+		</ul>
+	</div>
+	<div class="footer-colum">
+		<h2 class="column-title">Siguenos en nuestras redes</h2>
+		<a href="#"><i class="fab fa-facebook-f"></i></a>
+		<a href="#"><i class="fab fa-twitter"></i></a>
+		<a href="#"><i class="fab fa-instagram"></i></a>
+		<a href="#"><i class="fab fa-telegram"></i></a>
+	</div>
+	</footer>
+
+</body>
+<script src="js/app.js"></script>
+</html>

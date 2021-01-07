@@ -15,9 +15,12 @@ header{
         justify-content: space-between;
 				align-items: center;
 				background-color: #eee;
-        img{
-            height: 100%;
-        }
+        a{
+			height: 100%;
+			img{
+				height: 100%;
+			}
+		}
         .contact{
             list-style:none;
             li{
