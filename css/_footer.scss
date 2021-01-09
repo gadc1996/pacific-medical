@@ -11,13 +11,16 @@ footer{
 	align-items: top;
 	.footer-colum{
 		width: 20%;
-		img{
-			transition: .3s;
-		}
-
-		img:hover{
-			transition: .3s;
-			transform: scale(1.05)
+		a{
+			max-width: 10%;
+			img{
+				width: 100%;
+				transition: .3s;
+			}
+			img:hover{
+				transition: .3s;
+				transform: scale(1.05)
+			}
 		}
 
 		.column-title{

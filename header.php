@@ -12,10 +12,6 @@
 	<header>
 		<div class="top-navigation">
 		<a href="<?php echo home_url(  ); ?>"><img src="<?php echo get_bloginfo('template_url') ?>/img/logo.png" alt="pacific-medical-logo"/></a>
-		<ul class="contact">
-			<li><i class="fas fa-phone-alt"></i><a href="#">644-223-4975</a></li>
-			<li><i class="fas fa-envelope"></i><a href="#">pacific@medical.com</a></li>
-		</ul>
 	</div>
 
 	<nav>
