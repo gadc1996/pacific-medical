@@ -1,0 +1,49 @@
+@use 'variables';
+@use 'mixings';
+footer{
+    height: auto;
+    width: 100%;
+	background-color:  variables.$blue;
+	padding: 2em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: top;
+	.footer-colum{
+		width: 20%;
+		a{
+			max-width: 10%;
+			img{
+				width: 100%;
+				transition: .3s;
+			}
+			}
+		}
+
+		.column-title{
+			font-size: 1.5em;
+			color: variables.$light-gold;
+		}
+		
+		.column-list{
+			list-style: none;
+			li{
+				margin: .5em 0;
+				a{
+					text-decoration: none;
+					color: variables.$footer-text-color; 
+				}
+				a:hover{
+					@include  mixings.a-hover;
+				}
+			}
+		}
+
+		i{
+			color: variables.$footer-text-color;
+			font-size: 25px;
+			margin: 1em .5em;
+			transition: .5s;
+		}
+	}
+}

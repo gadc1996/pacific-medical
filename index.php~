@@ -11,7 +11,7 @@
 <section class="articles-section" >
     <?php 
         renderSectionTitle('Últimos artículos');
-        renderCardRow($cardsPerRow = 2, $cardsSize = 'big'); 
+        renderCardRow($cardsPerRow = 3, $cardsSize = 'small');
         renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $threshold = 2) ; 
     ?>    
 </section>
@@ -24,9 +24,9 @@
     ?>
     <div class="card-row">
     <?php    
-        renderCardMini($category = "hola", $categoryNumber = 1);
-        renderCardMini($category = "hola", $categoryNumber = 2);
-        renderCardMini($category = "hola", $categoryNumber = 3);
+            renderCardMini($category = "hola", $categoryNumber = 1);
+          renderCardMini($category = "hola", $categoryNumber = 2);
+                        renderCardMini($category = "hola", $categoryNumber = 3);
     ?>
     </div>
     <div class="card-row">

@@ -1,3 +1,4 @@
+hello from front-page.php
 <?php include('functions/renders.php'); ?>
 
 <?php get_header();?>
@@ -8,12 +9,13 @@
 <!--Termina Imagen destacada -->
 
 <!--Inicia seccion ultimos articulos-->
+                
 <section class="articles-section" >
     <?php 
         renderSectionTitle('Últimos artículos');
         renderCardRow($cardsPerRow = 3, $cardsSize = 'small'); 
         renderCardRow($cardsPerRow = 3, $cardsSize = 'small',$threshold = 3) ; 
-    ?>    
+?>    
 </section>
 <!--Termina  seccion ultimos articulos-->
 <!--Inicia seccion ultimos articulos-->

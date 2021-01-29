@@ -2,9 +2,14 @@
 @use 'mixings';
 
 .featured-image{
-  margin-top: 118px;
+  margin-top: 170px;
   width: 100%;
   img{
     max-width: 100%;
+  }
+}
+@media screen and (max-width: 675px){
+  .featured-image{
+    margin-top: 56px;
   }
 }

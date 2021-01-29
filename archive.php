@@ -1,3 +1,4 @@
+archive.php
 <?php include('functions/renders.php'); ?>
 
 <?php get_header();?>
@@ -9,9 +10,8 @@
 <!--Inicia seccion ultimos articulos-->
 <section class="articles-section" >
     <?php 
-        renderSectionTitle(single_cat_title( '', false ));
-        renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $category = single_cat_title( '', false )); 
-        renderCardRow($cardsPerRow = 3, $cardsSize = 'small', $category = single_cat_title( '', false ), $threshold = 3) ; 
+        renderDoctorsTitle(single_cat_title( '', false ));
+        //renderCardRow($cardsPerRow = 3, $cardsSize = 'doctor', $postType = 'doctors', $category = single_cat_title( '', false )); 
     ?>    
 </section>
 <!--Termina  seccion ultimos articulos-->

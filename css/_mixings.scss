@@ -8,8 +8,9 @@
 	height: 5px;
 }
 @mixin title{
-	font-size: 2em;
+	font-size: 2.5em;
 	color: variables.$blue;
+	font-weight: 900;
 }
 @mixin subtitle{
 	font-size: 1.5em;

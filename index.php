@@ -1,3 +1,4 @@
+Hello from index.php
 <?php include('functions/renders.php'); ?>
 
 <?php get_header();?>
@@ -24,9 +25,9 @@
     ?>
     <div class="card-row">
     <?php    
-        renderCardMini($category = "hola", $categoryNumber = 1);
-        renderCardMini($category = "hola", $categoryNumber = 2);
-        renderCardMini($category = "hola", $categoryNumber = 3);
+            renderCardMini($category = "hola", $categoryNumber = 1);
+          renderCardMini($category = "hola", $categoryNumber = 2);
+                        renderCardMini($category = "hola", $categoryNumber = 3);
     ?>
     </div>
     <div class="card-row">
