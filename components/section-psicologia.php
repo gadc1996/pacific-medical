@@ -1,4 +1,3 @@
-<?php include('functions/renders.php'); ?>
 <section class="articles-section" >
     <?php 
         renderSectionTitle('Psicología');

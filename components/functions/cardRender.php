@@ -45,6 +45,7 @@
                     $i++;
                 }    
             }
+						wp_reset_query();
         ?>
     </div>
 <?php
