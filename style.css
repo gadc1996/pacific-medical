@@ -457,6 +457,38 @@ footer i {
   color: #1B73D3;
 }
 
+.featured {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.featured .featured-column {
+  width: 35%;
+}
+.featured .featured-column .featured-article {
+  margin: 0 0 4% 0;
+  position: relative;
+  height: 48%;
+}
+.featured .featured-column .featured-article a .featured-image {
+  margin: 0;
+  height: 100%;
+}
+.featured .featured-column .featured-article a .featured-title {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  color: #1B73D3;
+  font-weight: 900;
+}
+.featured .featured-column .main-featured {
+  margin: 0 2% 0 0;
+  height: 100%;
+}
+.featured .big-column {
+  width: 60%;
+}
+
 /*Coments goes here*/
 * {
   margin: 0;

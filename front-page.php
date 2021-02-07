@@ -1,4 +1,3 @@
-hello from front-page.php
 <?php include('functions/renders.php'); ?>
 
 <?php get_header();?>
@@ -10,13 +9,8 @@ hello from front-page.php
 
 <!--Inicia seccion ultimos articulos-->
                 
-<section class="articles-section" >
-    <?php 
-        renderSectionTitle('Últimos artículos');
-        renderCardRow($cardsPerRow = 3, $cardsSize = 'small'); 
-        renderCardRow($cardsPerRow = 3, $cardsSize = 'small',$threshold = 3) ; 
-?>    
-</section>
+<?php include('components/featured.php'); ?>
+    
 <!--Termina  seccion ultimos articulos-->
 <!--Inicia seccion ultimos articulos-->
 <section class="articles-section" >
