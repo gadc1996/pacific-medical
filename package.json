@@ -1,25 +1,25 @@
 {
-  "name": "pacific-medical",
-  "version": "1.0.0",
-  "description": "",
-  "main": "front-page.php",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gadc1996/pacific-medical.github.io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gadc1996/pacific-medical.github.io/issues"
-  },
-  "homepage": "https://github.com/gadc1996/pacific-medical.github.io#readme",
-  "devDependencies": {
-    "browser-sync": "^2.26.13",
-    "gulp": "^4.0.2",
-    "gulp-livereload": "^4.0.2",
-    "gulp-sass": "^4.1.0"
-  }
+	"name": "pacific-medical",
+	"version": "1.0.0",
+	"description": "",
+	"main": "front-page.php",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gadc1996/pacific-medical.github.io.git"
+	},
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/gadc1996/pacific-medical.github.io/issues"
+	},
+	"homepage": "https://github.com/gadc1996/pacific-medical.github.io#readme",
+	"devDependencies": {
+		"browser-sync": "^2.26.13",
+		"gulp": "^4.0.2",
+		"gulp-livereload": "^4.0.2",
+		"gulp-sass": "^4.1.0"
+	}
 }
