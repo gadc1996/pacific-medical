@@ -15,7 +15,7 @@
 ?>
 			<div class="card-mini">
 				<div class="category"><a href=""> <?php echo $category; ?></a> </div>
-				<a href="#"><img src="<?php echo get_bloginfo('template_url') ?>/img/category<?php echo $categoryNumber;?>.jpeg" alt=""></a>
+				<a href="#"><img src="<?php echo get_bloginfo('template_url') ?>/assets/img/category<?php echo $categoryNumber;?>.jpeg" alt=""></a>
 			</div>
 <?php
     }

@@ -1,5 +1,5 @@
 <footer>
-	<a href="<?php echo home_url(  ); ?>"><img src="<?php echo get_bloginfo('template_url') ?>/img/logo-white.png" alt="pacific-medical-logo"/></a>
+	<a href="<?php echo home_url(  ); ?>"><img src="<?php echo get_bloginfo('template_url') ?>/assets/img/logo-white.png" alt="pacific-medical-logo"/></a>
 	<div class="socials">
 		<a href="#"><i class="fab fa-facebook-f"></i></a>
 		<a href="#"><i class="fab fa-twitter"></i></a>

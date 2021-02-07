@@ -34,7 +34,7 @@
 			<div class="line"></div>
 		</div>
 <div class="top-navigation">
-		<a href="<?php echo home_url(  ); ?>"><img src="<?php echo get_bloginfo('template_url') ?>/img/logo.png" alt="pacific-medical-logo"/></a>
+		<a href="<?php echo home_url(  ); ?>"><img src="<?php echo get_bloginfo('template_url') ?>/assets/img/logo.png" alt="pacific-medical-logo"/></a>
 	</div>
 	<nav>
 		
