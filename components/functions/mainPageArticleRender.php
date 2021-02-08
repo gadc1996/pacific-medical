@@ -3,7 +3,7 @@
         $i = 0;
         $skip = 0; 
         $args = array(
-            'post_type' =>  'post',
+            'post_type' =>  'posts',
             'posts_per_page' =>  5,
         );
         $blogposts = new WP_Query($args);
@@ -28,5 +28,6 @@
             $i++;
             }
         }
+				wp_reset_query();
     }
 ?>
