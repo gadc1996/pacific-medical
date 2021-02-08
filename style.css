@@ -301,6 +301,10 @@ header .nav-links .nav-item:hover .dropdown {
 }
 
 @media screen and (max-width: 675px) {
+  .articles-section {
+    padding: 0;
+  }
+
   .section-title {
     font-size: 2em;
     text-align: center;
@@ -456,6 +460,21 @@ footer i {
   color: #1B73D3;
 }
 
+@media screen and (max-width: 675px) {
+  .doctor-card .header {
+    flex-direction: column;
+    align-items: start;
+  }
+  .doctor-card .header .doctor-name {
+    padding: 0;
+  }
+  .doctor-card .header .doctor-image {
+    width: 100%;
+  }
+  .doctor-card .doctor-info .info-row {
+    font-size: 1em;
+  }
+}
 .featured {
   width: 80%;
   display: flex;
@@ -488,6 +507,18 @@ footer i {
   width: 60%;
 }
 
+@media screen and (max-width: 675px) {
+  .featured {
+    width: 100%;
+    flex-direction: column;
+  }
+  .featured .featured-column {
+    width: 100%;
+  }
+  .featured .big-column {
+    width: 100%;
+  }
+}
 /*
 Theme Name: Roca Supplements 
 Theme URI: 

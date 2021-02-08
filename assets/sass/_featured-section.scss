@@ -33,3 +33,16 @@
 		width: 60%;
 	}
 }
+
+@media screen and (max-width: 675px) {
+	.featured {
+		width: 100%;
+		flex-direction: column;
+		.featured-column {
+			width: 100%;
+		}
+		.big-column {
+			width: 100%;
+		}
+	}
+}

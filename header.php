@@ -12,18 +12,14 @@
 	<header>
 		<div class="mobil-nav">
 			<a class="nav-item" href="<?php echo site_url(' '); ?>">INICIO</a>
-			<a class="nav-item" href="#">TODOS LOS TEMAS&#8964;</a>
-				<!-- <ul class="dropdown">
-					<li class="dropdownitem"><a href="<?php echo site_url('/index.php'); ?>/category/medicina-general/">Medicina general</a></li>
-					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/cirugia-bariatrica/">Cirugía bariátrica</a></li>
-					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/psicologia/">Psicología</a></li>
-					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/nutricion/">Nutrición</a></li>
-					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/ginecologia/">Ginecología</a></li>
-					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/embarazo/">Embarazo</a></li>
-					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/neumologia/">Neumología</a></li>
-				</ul> -->
-			
-			<a class="nav-item" href="<?php echo site_url('/index.php'); ?>/doctors/">Doctors</a>
+			<a class="nav-item" href="<?php echo site_url('/index.php'); ?>/category/medicina-general/">MEDICINA GENERAL</a>
+			<a class="nav-item" href="<?php echo site_url('/index.php'); ?>/category/cirugia-bariatrica/">CIRUGÍA BARIÁTRICA</a>
+			<a class="nav-item" href="<?php echo site_url('/index.php'); ?>/category/psicologia/">PSICOLOGÍA</a>
+			<a class="nav-item" href="<?php echo site_url('/index.php'); ?>/category/nutricion/">NUTRICIÓN</a>
+			<a class="nav-item" href="<?php echo site_url('/index.php'); ?>/category/ginecologia/">GINECOLOGÍa</a>
+			<a class="nav-item" href="<?php echo site_url('/index.php'); ?>/category/embarazo/">EMBARAZO</a>
+			<a class="nav-item" href="<?php echo site_url('/index.php'); ?>/category/neumologia/">NEUMOLOGÍA</a>
+			<a class="nav-item" href="<?php echo site_url('/index.php'); ?>/doctors/">DOCTORES</a>
 			<a class="nav-item" href="<?php echo site_url('/index.php'); ?>/category/tips/">TIPS</a>
 			<a class="nav-item" href="<?php echo site_url('/index.php'); ?>/category/noticias/">NOTICIAS</a>
 		</ul>
@@ -42,13 +38,13 @@
 			<li class="nav-item"><a href="<?php echo site_url(' '); ?>">INICIO</a></li>
 			<li class="nav-item"><a href="#">TODOS LOS TEMAS&#8964;</a>
 				<ul class="dropdown">
-					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/medicina-general/">Medicina general</a></li>
-					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/cirugia-bariatrica/">Cirugía bariátrica</a></li>
-					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/psicologia/">Psicología</a></li>
-					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/nutricion/">Nutrición</a></li>
-					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/ginecologia/">Ginecología</a></li>
-					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/embarazo/">Embarazo</a></li>
-					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/neumologia/">Neumología</a></li>
+					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/medicina-general/">MEDICINA GENERAL</a></li>
+					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/cirugia-bariatrica/">CIRUGÍA BARIÁTRICA</a></li>
+					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/psicologia/">PSICOLOGÍA</a></li>
+					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/nutricion/">NUTRICIÓN</a></li>
+					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/ginecologia/">GINECOLOGÍa</a></li>
+					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/embarazo/">EMBARAZO</a></li>
+					<li class="dropdown-item"><a href="<?php echo site_url('/index.php'); ?>/category/neumologia/">NEUMOLOGÍA</a></li>
 				</ul>
 			</li>
 			<li class="nav-item"><a href="<?php echo site_url('/index.php'); ?>/category/tips/">TIPS</a></li>
