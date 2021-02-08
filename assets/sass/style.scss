@@ -1,13 +1,30 @@
-/*Coments goes here*/
-@use 'css/variables';
-@use 'css/navigation';
-@use 'css/featured-image';
-@use 'css/articles-section';
-@use 'css/footer';
-@use 'css/burger';
-@use 'css/article';
-@use 'css/doctors';
-@use 'css/featured-section';
+/*
+Theme Name: Roca Supplements 
+Theme URI: 
+Author: Alex Delgado 
+Author URI: http://alex-delgado.com.mx 
+Description: Custum wordpres theme, www.rocasupplements.com
+Requires at least: 4.9.6
+Requires PHP: 5.2.4
+Version: 1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Roca Supplements 
+Tags: Gym, Supplements, fitness, bodybulding 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@use 'variables';
+@use 'navigation';
+@use 'featured-image';
+@use 'articles-section';
+@use 'footer';
+@use 'burger';
+@use 'article';
+@use 'doctors';
+@use 'featured-section';
 * {
 	margin: 0;
 	padding: 0;

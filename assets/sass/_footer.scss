@@ -1,35 +1,35 @@
 @use 'variables';
 @use 'mixings';
-footer{
-    height: auto;
-    width: 100%;
-	background-color:  variables.$blue;
+footer {
+	height: auto;
+	width: 100%;
+	background-color: variables.$blue;
 	padding: 2em;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	a{
+	a {
 		text-align: center;
 		width: 100%;
-		img{
-			width:30%;
+		img {
+			width: 30%;
 		}
 	}
-		i{
-			color: variables.$light-gold;
-			font-size: 25px;
-			margin: 1em .5em;
-			transition: .5s;
-		}
+	i {
+		color: white;
+		font-size: 25px;
+		margin: 1em 0.5em;
+		transition: 0.5s;
 	}
+}
 
-@media screen and (max-width: 675px){
-	footer{
-		a{
-			img{
+@media screen and (max-width: 675px) {
+	footer {
+		a {
+			img {
 				width: 60%;
 			}
-	 	}
+		}
 	}
 }

@@ -1,6 +1,5 @@
-<?php include('functions/renders.php'); ?>
 <section class="articles-section" >
-	<h2 class="section-title"><?php renderSectionTitle(single_cat_title( '', false ));?></h2>
+<h2 class="section-title"><?php single_cat_title(); ?></h2>
   <div class="title-divider">
     <div class="divider-color"></div>
     <div class="divider-section"></div>

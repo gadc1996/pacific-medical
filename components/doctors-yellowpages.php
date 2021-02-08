@@ -1,10 +1,16 @@
-<?php include('functions/renders.php'); ?> 
 <section class="articles-section" >
-    <?php 
-        renderDoctorsTitle(single_cat_title( '', false ));
-				while(have_posts()){
+   <h2 class="section-title">Doctors</h2>
+    <div class="title-divider">
+ 	   <div class="divider-color"></div>
+  	 <div class="divider-section"></div>
+   	 <div class="divider-section"></div>
+   	 <div class="divider-section"></div>
+   	 <div class="divider-section"></div>
+    </div>
+ <?php 
+		while(have_posts()){
 					the_post();
-		?>
+?>
 			<div class="doctor-card">
 			<div class="header">
 				<img class="doctor-image" src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="">
