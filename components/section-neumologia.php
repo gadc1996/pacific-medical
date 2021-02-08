@@ -11,7 +11,7 @@
 <?php
 		$count = 0;
     $args = array(
-   		'posts_per_page' =>  8,
+   		'posts_per_page' =>  6,
    		'category_name' => 'Neumologia',
      );
      $blogposts = new WP_Query($args);
